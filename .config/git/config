@@ -1,0 +1,6 @@
+[user]
+        name = Michael Paul
+        email = michael.paul@mailbox.org
+        signingkey = FC7E3351781767E6
+[commit]
+        gpgsign = false
