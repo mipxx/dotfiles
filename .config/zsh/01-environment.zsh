@@ -1,4 +1,5 @@
 export EDITOR=vim
+export VISUAL=vim
 
 export LANG=en_DK.UTF-8
 export LANGUAGE=en_DK.UTF-8
@@ -16,3 +17,7 @@ export LC_TELEPHONE=de_DE.UTF-8
 export LC_TIME=en_DK.UTF-8
 
 export XDG_CONFIG_HOME=~/.config
+export XDG_DATA_HOME=~/.local/share
+
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
