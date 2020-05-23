@@ -21,3 +21,4 @@ export XDG_DATA_HOME=~/.local/share
 
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+export KDEHOME="$XDG_CONFIG_HOME"/kde
