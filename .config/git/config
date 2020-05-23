@@ -4,5 +4,5 @@
         signingkey = FC7E3351781767E6
 [commit]
         gpgsign = false
-[core]
-	autocrlf = input
+[include]
+	path = config.local
