@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export XDG_CONFIG_HOME=~/.config
+
 if command -v vim >/dev/null 2>&1; then
   echo "Bootstraping Vim"
   mkdir -p "$XDG_DATA_HOME"/vim/{undo,swap,backup}
