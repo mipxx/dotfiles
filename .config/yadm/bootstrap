@@ -2,7 +2,11 @@
 
 export XDG_CONFIG_HOME=~/.config
 
+# prepare vim folders
 if command -v vim >/dev/null 2>&1; then
   echo "Bootstraping Vim"
   mkdir -p "$XDG_DATA_HOME"/vim/{undo,swap,backup}
 fi
+
+# replace yadm https repo with ssh
+sed -i "s/url = https:\/\/github.com\/mipxx\/dotfiles.git/url = git@github.com:mipxx\/dotfiles.git/" $HOME/.config/yadm/repo.git/config
