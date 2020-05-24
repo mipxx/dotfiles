@@ -1,9 +1,7 @@
 export EDITOR=vim
 export VISUAL=vim
 
-export LANG=de_DE.UTF-8
-export LANGUAGE=de_DE.UTF-8
-export LC_MESSAGES=en_US.UTF-8
+export LANG=en_DK.UTF-8
 
 export XDG_CONFIG_HOME=~/.config
 export XDG_DATA_HOME=~/.local/share
