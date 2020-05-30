@@ -10,3 +10,7 @@ fi
 
 # replace yadm https repo with ssh
 sed -i "s/url = https:\/\/github.com\/mipxx\/dotfiles.git/url = git@github.com:mipxx\/dotfiles.git/" $HOME/.config/yadm/repo.git/config
+
+# clone pyenv
+mkdir -p $HOME/git/github.com/pyenv
+git clone https://github.com/pyenv/pyenv.git $HOME/git/github.com/pyenv
