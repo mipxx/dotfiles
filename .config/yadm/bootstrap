@@ -14,3 +14,6 @@ sed -i "s/url = https:\/\/github.com\/mipxx\/dotfiles.git/url = git@github.com:m
 # clone pyenv
 mkdir -p $HOME/git/github.com/pyenv
 git clone https://github.com/pyenv/pyenv.git $HOME/git/github.com/pyenv
+
+# reload shell
+exec $SHELL
