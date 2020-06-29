@@ -1,4 +1,4 @@
-alias code='codium'
+#alias code='codium'
 alias df='df -h'
 alias l='ls -lh --color=auto'
 alias ll='ls -lah --color=auto'
