@@ -6,3 +6,5 @@
         gpgsign = false
 [include]
 	path = config.local
+[pull]
+	rebase = false
