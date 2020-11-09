@@ -1,0 +1,15 @@
+[Desktop Entry]
+DefaultProfile=michael.profile
+
+[Favorite Profiles]
+Favorites=michael.profile
+
+[KonsoleWindow]
+SaveGeometryOnExit=false
+
+[TabBar]
+CloseTabOnMiddleMouseButton=true
+ExpandTabWidth=true
+NewTabBehavior=PutNewTabAfterCurrentTab
+NewTabButton=true
+TabBarPosition=Top
